@@ -1,0 +1,31 @@
+.intro {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.intro strong {
+    font-weight: bold;
+}
+
+.intro a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+}
+
+.intro b {
+    font-weight: bold;
+}
+
+.intro blockquote {
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #333;
+}
+

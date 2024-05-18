@@ -1,8 +1,8 @@
 .intro {
-    font-family: Arial, sans-serif;
+    font-family: Monospace;
     font-size: 16px;
     line-height: 1.6;
-    color: #334;
+    color: #333;
 }
 
 .intro strong {
@@ -29,3 +29,42 @@
     border-left: 2px solid #333;
 }
 
+.footage {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+.footage a {
+    text-decoration: none;
+    color: #1a73e8;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.footage a:hover {
+    color: #ff4500;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-left-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.code {
+    font-size: 1.5em; /* Adjust the font size as needed */
+    font-weight: bold;
+}

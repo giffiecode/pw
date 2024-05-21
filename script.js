@@ -26,4 +26,18 @@ document.addEventListener('DOMContentLoaded', () => {
   codeElement.addEventListener('click', toggleTextColor);
 });
 
+// Function to toggle dark mode
+function toggleDarkMode() {
+  const body = document.body;
+  const darkModeIcon = document.getElementById('dark-mode-icon');
 
+  if (body.classList.contains('dark-mode')) {
+    // Switch to light mode
+    body.classList.remove('dark-mode');
+    darkModeIcon.textContent = '🌞'; // Change icon to sun
+  } else {
+    // Switch to dark mode
+    body.classList.add('dark-mode');
+    darkModeIcon.textContent = '🌙'; // Change icon to moon
+  }
+}

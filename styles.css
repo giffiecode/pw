@@ -69,3 +69,17 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Styles for the dark mode switch button */
+.dark-mode-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Styles for the dark mode switch button icon */
+#dark-mode-icon {
+  font-size: 24px;
+}

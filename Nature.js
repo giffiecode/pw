@@ -2,7 +2,7 @@ import React from 'react';
 
 const blue_nyc_view = {
   src: 'https://github.com/giffiecode/pw/blob/main/photography/blue2.JPG',
-  alt: 'Sky',
+  alt: 'Blue Hour of NYC',
   width:  '200px'
 };
 
@@ -17,5 +17,4 @@ function Nature(){
       </div>
     );
 }
-
 export default Nature;
